@@ -7,7 +7,7 @@ var sql = require('mssql/msnodesqlv8');
 var sqlConfig = {
     server: 'MAHD0076',
     database: 'test',
-    user: 'sa',
+    user: 'sa', 
     password: 'password@123',
 };
 
