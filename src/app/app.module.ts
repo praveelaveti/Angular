@@ -13,13 +13,14 @@ import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 
 import { AppRoutingModule }     from './app-routing.module';
 import { ListComponent } from './list/list.component'; // ext route config file 
+import {HomeComponent} from './home/home.component';
 
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule,ReactiveFormsModule ,AppRoutingModule,HttpClientInMemoryWebApiModule.forRoot(
       InMemoryDataService, { dataEncapsulation: false }
     )   ],
-  declarations: [ AppComponent, HelloComponent ,HeaderComponent,FooterComponent,LeftMenuComponent, ListComponent],
+  declarations: [ AppComponent, HelloComponent ,HeaderComponent,FooterComponent,LeftMenuComponent, ListComponent,HomeComponent],
   bootstrap:    [ AppComponent ],
   providers: [PlicyService]
 })

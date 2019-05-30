@@ -2,6 +2,7 @@
 import { NgModule }             from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ListComponent } from './list/list.component';
+import {HomeComponent} from './home/home.component'
 // import { ProviderComponent } from './provider/provider.component';
 // import { HomeComponent } from './home/home.component';
 // import { DemoGrid1Component } from './demo-grid1/demo-grid1.component';
@@ -9,6 +10,7 @@ import { ListComponent } from './list/list.component';
 // import {NgbModule} from '@ng-bootstrap/ng-bootstrap'; 
 
 const routes: Routes = [
+  {path:'home',component:HomeComponent},
   {path:'list',component:ListComponent},
   // { path: '', redirectTo: '/provider', pathMatch: 'full' },
 //   { path: 'dashboard', component: DashboardComponent },
