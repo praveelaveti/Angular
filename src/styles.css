@@ -144,8 +144,10 @@ div.content {
     width: 85%;
     height: 100%;
     float: left;
-    background-color: royalblue;
+    /* background-color: royalblue; */
     border-collapse: collapse;
+    margin-left: 210px;
+    margin-top:5px;
 }
 
 .rightpaneP {

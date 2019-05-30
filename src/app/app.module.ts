@@ -11,14 +11,15 @@ import { PlicyService } from './plicy.service';
 import { InMemoryDataService } from './in-memory-data.service';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 
-import { AppRoutingModule }     from './app-routing.module'; // ext route config file 
+import { AppRoutingModule }     from './app-routing.module';
+import { ListComponent } from './list/list.component'; // ext route config file 
 
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule,ReactiveFormsModule ,AppRoutingModule,HttpClientInMemoryWebApiModule.forRoot(
       InMemoryDataService, { dataEncapsulation: false }
     )   ],
-  declarations: [ AppComponent, HelloComponent ,HeaderComponent,FooterComponent,LeftMenuComponent],
+  declarations: [ AppComponent, HelloComponent ,HeaderComponent,FooterComponent,LeftMenuComponent, ListComponent],
   bootstrap:    [ AppComponent ],
   providers: [PlicyService]
 })
