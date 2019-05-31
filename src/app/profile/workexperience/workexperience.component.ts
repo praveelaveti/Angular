@@ -80,13 +80,11 @@ experienceList:any=[];
       fromDate:"Sep 2013",
       toDate:"May 2015",
       description:"• Implemented designing and coding for the project business requirements."
-                  +"• Involved in writing stored procedures and provided technical solutions."
-                  +"• Polished feature sets and debugging existing source code."
-                  +"• Worked on portfolio management tool which Web and application development."
-                  +"• Designed different database objects containing functions, stored procedures and tables."
-                  +"• Performed unit testing to ensure developed software is fully functional."
-                  +"• Developed strong communication skills by interacting with clients on regular basis."
-                  +"• Ensured team targets are met by supporting the peers.",
+                   +"•Designing different database objects containing functions, stored procedures and tables."
+                  +"•	Performed unit testing to ensure developed software is fully functional."
+                  +"•	Involved in writing Business logic in Business layer."
+                  +"•	Developed stored procedures for interacting with the database."
+                  +"•	Supporting and maintenance of an application.",
       projects:[{
         id:"",
         projectName:"",
