@@ -6,10 +6,26 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./workexperience.component.css']
 })
 export class WorkexperienceComponent implements OnInit {
-
+experienceList:any=[];
   constructor() { }
 
   ngOnInit() {
+    this.experienceList.push({
+      id:"",
+      companyName:"",
+      fromDate:"",
+      toDate:"",
+      about:"",
+      rolendResponsiblities:"",
+      projects:[{
+        id:"",
+        projectName:"",
+        
+      },{
+
+      }],
+    });
+
   }
 
 }
