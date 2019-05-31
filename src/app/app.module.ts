@@ -14,17 +14,18 @@ import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { AppRoutingModule }     from './app-routing.module';
 import { ListComponent } from './list/list.component'; // ext route config file 
 import {HomeComponent} from './home/home.component';
-import { AboutComponent } from './profile/about/about.component';
-import { SkillsComponent } from './profile/skills/skills.component';
-import { WorkexperienceComponent } from './profile/workexperience/workexperience.component';
-import { EducationComponent } from './profile/education/education.component';
+ import { AboutComponent } from './profile/about/about.component';
+ import { SkillsComponent } from './profile/skills/skills.component';
+ import { WorkexperienceComponent } from './profile/workexperience/workexperience.component';
+ import { EducationComponent } from './profile/education/education.component';
 
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule,ReactiveFormsModule ,AppRoutingModule,HttpClientInMemoryWebApiModule.forRoot(
       InMemoryDataService, { dataEncapsulation: false }
     )   ],
-  declarations: [ AppComponent, HelloComponent ,HeaderComponent,FooterComponent,LeftMenuComponent, ListComponent,HomeComponent, AboutComponent, SkillsComponent, WorkexperienceComponent, EducationComponent],
+  declarations: [ AppComponent, HelloComponent ,HeaderComponent,FooterComponent,LeftMenuComponent, ListComponent,HomeComponent, AboutComponent, SkillsComponent, WorkexperienceComponent, EducationComponent
+  ],
   bootstrap:    [ AppComponent ],
   providers: [PlicyService]
 })

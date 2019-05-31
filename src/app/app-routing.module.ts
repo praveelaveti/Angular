@@ -3,6 +3,10 @@ import { NgModule }             from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ListComponent } from './list/list.component';
 import {HomeComponent} from './home/home.component'
+// import { AboutComponent } from './profile/about/about.component';
+// import { SkillsComponent } from './profile/skills/skills.component';
+// import { WorkexperienceComponent } from './profile/workexperience/workexperience.component';
+// import { EducationComponent } from './profile/education/education.component';
 // import { ProviderComponent } from './provider/provider.component';
 // import { HomeComponent } from './home/home.component';
 // import { DemoGrid1Component } from './demo-grid1/demo-grid1.component';
@@ -12,6 +16,7 @@ import {HomeComponent} from './home/home.component'
 const routes: Routes = [
   {path:'home',component:HomeComponent},
   {path:'list',component:ListComponent},
+  // {path:'about',component:AboutComponent},
   // { path: '', redirectTo: '/provider', pathMatch: 'full' },
 //   { path: 'dashboard', component: DashboardComponent },
 //   { path: 'detail/:id', component: HeroDetailComponent },
